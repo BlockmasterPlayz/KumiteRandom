@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumite Randomizer| ZaakirDev</title>
+
+    <style>
+        .HouseStyle{
+            background-color: #16C79A;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        button{
+            background-color: transparent;
+            border-color: transparent;
+            color: white;
+        }
+
+        h1{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header{
+            text-align: center;
+            background-color: #19456B;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 15px;
+        }
+
+        p{
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="HouseStyle">
+    <header>
+        <h1>Kumite Randomizer</h1>
+    </header>
+
+    <p>Move1: {{Move1}}</p>
+    <p>Move2: {{Move2}}</p>
+    <p>Move3: {{Move3}}</p>
+    <p>Move4: {{Move4}}</p>
+
+    <form action="/Randomize">
+        <button style="float: right;"><img src="/static/outline_shuffle_on_white_24dp.png" alt="Randomize"></button>
+    </form>
+</body>
+</html>
